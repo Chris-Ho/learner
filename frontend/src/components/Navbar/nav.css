@@ -1,0 +1,82 @@
+.nav{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 8vh;
+    width: 100%;
+    background-color: white;
+    z-index: 0;
+    border-bottom: 1px solid #ddd;
+  }
+
+.white-button{
+font-size: 0.6em;
+height: inherit;
+width: 122px;
+border-radius: 3px;
+background-color: inherit;
+color: #333;
+outline: none;
+border: black;
+font-family: Helvetica, sans-serif;
+letter-spacing: 2px;
+margin-right: 10px;
+}
+
+.light-blue-button{
+font-size: 0.8em;
+height: 42px;
+width: 110px;
+padding-left: 1px;
+padding-right: 1px;
+padding-top: 1px;
+padding-bottom: 1px;
+text-align: center;
+border-radius: 3px;
+background-color: #ecfcfc;
+color: #4186bf;
+outline: transparent;
+border: transparent;
+font-family: 'Open Sans', sans-serif;
+}
+
+.logo-image{
+    background-color: transparent;
+    position: relative;
+    align-self: center;
+    height: 50%;
+  }
+
+.nav-button-container{
+position: relative;
+display: flex;
+flex-direction: row;
+height: 100%;
+width: 30%;
+white-space: nowrap;
+}
+
+.nav .aligned-section{
+    display: flex;
+    height: inherit;
+    padding-top: 0;
+    padding-bottom: 0;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+.nav .light-blue-button{
+    align-self: center;
+}
+
+.custom-link {
+  color: blue; 
+  text-decoration: none; 
+  font-weight: bold; 
+
+}
+
+.custom-link:hover {
+  color: red; 
+}
